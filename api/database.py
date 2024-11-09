@@ -24,7 +24,7 @@ users_model='''
         username TEXT NOT NULL,
         email TEXT not null,
         password text not null,
-        role text not null,
+        role text not null , 
         status boolean default null,
         create_at timestamp default(datetime('now','localtime')),
         update_at timestamp default(datetime('now','localtime')),
@@ -35,5 +35,3 @@ users_model='''
 #execute query
 cur.execute(users_model)
 
-#close connection
-con.close()

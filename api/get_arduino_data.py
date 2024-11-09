@@ -11,7 +11,7 @@ import serial
 import time
 
 #arduino port
-arduino_port='COM6'
+arduino_port='COM7'
 arduino_bau = 9600
 
 service = serial.Serial(
